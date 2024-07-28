@@ -1,0 +1,107 @@
+img{
+    width: 150px;
+}
+
+html{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #529ffa;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.panel{
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px 0px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+h2{
+    margin: 30px 0 0 0;
+}
+
+.pricing-header{
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+.pricing-feature{
+    margin: 50px 0 25px;
+    color: #015ff9;
+}
+
+.pricing-feature p{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+}
+
+.price{
+    color: #015ff9;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+a{
+    color: #248efe;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.white{
+    border: 1px solid #248efe;
+    padding: 10px 30px;
+    border-radius: 12px;
+    background-color: white;
+    display: inline-block;
+    margin: 25px 0;
+}
+
+.white:hover{
+    background-color: #e1f1ff;
+    transition: ease-in-out 0.3s;
+}
+
+.blue{
+    border: 1px solid #248efe;
+    padding: 10px 30px;
+    border-radius:  12px;
+    background-color: #248efe;
+    color: white;
+    display: inline-block;
+    margin: 25px 0;
+}
+
+.blue:hover{
+    background-color: #deebff;
+    color: #015ff9;
+    transition: ease-in-out 0.3s;
+}
+
+@media (min-width:1100px) {
+    .panel{
+        flex-direction: row;
+        width: 960px;
+    }
+}
