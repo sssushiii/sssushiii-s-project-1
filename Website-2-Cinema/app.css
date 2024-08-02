@@ -1,0 +1,62 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #dbfdff;
+}
+
+#navbar{
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #31363F;
+}
+
+.text-center{
+    color: #31363F;
+}
+
+#navbar .navbar-brand{
+    color: #76ABAE;
+}
+
+#navbar .nav-link{
+    color: #dbfdff;
+    font-weight: 400;
+}
+
+#navbar .nav-link:hover{
+    color: #76ABAE;
+    transition: ease-in-out 0.2s;
+}
+
+#title-head{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1400px){
+    #title-head h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 992px){
+    .marg-h1{
+        margin-top: 120px;
+    }
+}
+
+.blurb h2{
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.blurb p{
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.imgg{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
