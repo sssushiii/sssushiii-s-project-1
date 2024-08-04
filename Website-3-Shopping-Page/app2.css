@@ -1,0 +1,22 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-page{
+    width: 95%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(30px);
+    border-radius: 4px;
+}
+
