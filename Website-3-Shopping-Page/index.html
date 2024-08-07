@@ -14,12 +14,12 @@
         <div class="box-login">
             <div class="shop-bag">
             </div>
-            <form class="login-isi" action="mainpage.html" method="post">
+            <form class="login-isi" id="sign-up-form">
                 <div class="lh">
                     <div class="login-head">
                         <div class="isi-head">
                             <h1 class="hd1">SHOP</h1>
-                            <h1 class="hd2">PING PAGE</h1>
+                            <h1 class="hd2">PING PAGE.</h1>
                         </div>
                         <div class="deskripsi-head">
                             <h2 class="desk">Selalu melayani anda kapanpun dan dimanapun</h2>
@@ -69,5 +69,12 @@
             </form>
         </div>
     </div>
+
+    <script>
+        document.getElementById('sign-up-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'mainpage.html';
+        });
+    </script>
 </body>
 </html>
